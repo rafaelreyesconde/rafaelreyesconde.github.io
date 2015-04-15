@@ -1,11 +1,13 @@
 body {
-	background-color: #FAF0E6;
+	background-color: #f1f1f1;
 }
 
 h1 {
 	color: #49303D;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
 	color: #660033;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
