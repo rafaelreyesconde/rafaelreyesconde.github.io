@@ -1,0 +1,44 @@
+body {
+	text-align: center;
+	background-color: rgb(7,7,9);
+	color: white
+}
+
+h1 {
+	color: rgb(245,208,118);
+	font-family: "Helvetica", Geneva, sans-serif;
+	font-weight: normal;
+}
+
+p {
+	color: white;
+	font-family: "Helvetica", Geneva, sans-serif;
+	font-weight: normal;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 25px;
+	color: rgb(245,208,118);
+}
+
+#color {
+	color: rgb(245,208,118);
+}
+
+ul {
+	color: white;
+	font-family: "Helvetica", Geneva, sans-serif;
+	font-weight: normal;
+	display: inline-block;
+	text-align: left;
+}
+
+hr {
+	width: 200px
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
