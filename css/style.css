@@ -1,35 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic);
+
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+
 body {
 	text-align: center;
-	background-color: rgb(7,7,9);
-	color: white
+	background-color: white;
 }
 
 h1 {
-	color: rgb(245,208,118);
-	font-family: "Helvetica", Geneva, sans-serif;
-	font-weight: normal;
+	color: #000;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+	letter-spacing: 0.5em
 }
 
 p {
-	color: white;
-	font-family: "Helvetica", Geneva, sans-serif;
+	color: black;
+	font-family: 'Lora', serif;
 	font-weight: normal;
 }
 
 #slogan {
-	font-style: italic;
-	font-size: 25px;
-	color: rgb(245,208,118);
+	font-size: 20px;
+	color: black;
+}
+
+.quote {
+		background: #fff;
+		width: 700px;
+		color: black;
+		margin: 0 auto;
+		padding: 10px;
+		line-height: 2em
 }
 
 #color {
-	color: rgb(245,208,118);
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+
 }
 
 ul {
-	color: white;
-	font-family: "Helvetica", Geneva, sans-serif;
-	font-weight: normal;
+	color: black;
+	font-family: 'Lora', serif;
+	font-weight: 400;
 	display: inline-block;
 	text-align: left;
 }
@@ -40,5 +55,7 @@ hr {
 
 a {
 	color: red;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
 	text-decoration: none;
 }
