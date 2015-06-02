@@ -1,0 +1,100 @@
+body{
+	font-family: Helvetica;
+	font-size: 16px;
+	font:#ccc;
+}
+
+header{
+	padding: 20px;
+	height: 100px;
+	display: inline-blockblock;
+}
+
+header h1{
+	font-family: 'Raleway Dots', cursive;
+	font-size: 4em;
+}
+
+nav{
+	padding: 10px;
+	width: 200px;
+	float: left;
+}
+
+nav a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #ccc;
+	font-size: 0.8em;
+	font-family: 'Istok Web', sans-serif;
+	color: #949494;
+}
+
+nav a:hover{
+	 color: #3177b1;
+}
+
+#wrapper{
+	background-color: white;
+	width: 1200px;
+	height: 920px;
+	margin: 30px auto;
+}
+
+#photogrid{
+	font-size: 0;
+	width: 720px;
+	float: left;
+}
+
+#services{
+	width: 451px;
+	float: left;
+	padding: 10px;
+}
+
+#sidetext{
+	width: 300px;
+	height: 700px;
+	float: left;
+	padding: 10px;
+}
+
+#sidetext p {
+	color: #949494;
+	display: inline-block;
+	font-family: 'Lora', serif;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+#sidetext h2 {
+	color: #3177b1;
+	font-family: 'Istok Web', sans-serif;
+}
+
+#sidetext.par {
+display: inline-block;
+}
+
+#photogrid a{
+	margin: 20px;
+	display: inline-block;
+	opacity: 1;
+}
+
+#photogrid a:hover{
+	opacity: 0.5;
+}
+
+footer{
+	text-align: center;
+	font-size: .8em;
+	padding: 20px;
+	font-family: 'Istok Web', sans-serif;
+	color: #949494;
+}
+footer.clear{
+	clear: both;
+}
